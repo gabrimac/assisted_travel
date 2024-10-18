@@ -1,0 +1,5 @@
+# Ignore user_data directory, which contains user-specific data for gpt selenium
+user_data/
+
+# Ignore .pyc files
+__pycache__/
