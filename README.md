@@ -28,7 +28,9 @@ The Trip Planning Assistant project is designed to automate the process of plann
     ```
 3. Install the required dependencies:
     ```sh
+    pip install poetry
     poetry install
+    brew install chromedriver
     ```
 4. Configure env variables
     ```sh
@@ -36,9 +38,9 @@ The Trip Planning Assistant project is designed to automate the process of plann
     export FLASK_ENV=development
     export OPENAI_API_KEY=api_key_in_openai
     ```
-4. Run the webserver
+5. Run the webserver
     ```sh
     flask run
     ```
-5. Open in the browser the assistant in this url:
+6. Open in the browser the assistant in this url:
    127.0.0.1:5000
